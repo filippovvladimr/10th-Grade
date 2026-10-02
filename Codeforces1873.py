@@ -13,7 +13,7 @@ for _ in range(c):
 for i in ans:
     print(i)
 
-# TODO second
+
 
 t = int(input())
 for _ in range(t):
@@ -31,7 +31,7 @@ for _ in range(t):
 
     print(best)
 
-# TODO third
+
 def count(row , now):
     res = 0
     if(now == 0 or now == 9 ):
@@ -90,7 +90,7 @@ for num in resu:
 
 
 
-#TODO fourth
+
 
 
 def solve():
