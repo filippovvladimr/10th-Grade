@@ -10,6 +10,13 @@ ans = max(ans, min(b, d, a + c))
 print(ans)
 
 r"""
+    #include <iostream>
+    #include <algorithm>
+    using namespace std;
+
+    int main() {
+        long long a, b, c, d;
+        cin >> a >> b >> c >> d;
 // Квадрат целиком внутри одного из прямоугольников
     long long ans = max(min(a, b), min(c, d));
 
