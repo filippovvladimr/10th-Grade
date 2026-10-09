@@ -1,3 +1,5 @@
+
+
 def LZ78_compress(text):
     dictionary = {}
     result = []
